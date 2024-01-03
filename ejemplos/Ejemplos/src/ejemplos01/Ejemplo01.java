@@ -39,6 +39,12 @@ public class Ejemplo01 {
         }
         return cadena;
     }
+    /*
+    En este caso la funcion esta siendo invocada y no usada directamente por ende
+    se debe quitar el "void" que estaba antes para permitir que la funcion retorne
+    lo que queremos, y poner String para que nos retorne el dato en cadena que es
+    lo que se pide en el principal
+    */
 
     public static void obtenerMultiplicacion(int tabla, int limite) {
         int operacion;
@@ -50,6 +56,11 @@ public class Ejemplo01 {
         }
         System.out.printf("%s\n",cadena);
     }
+    /*
+    Caso contrario aqui esta no esta siendo invocada y solo es usadad directamente
+    asi que solo se debe enviar el valor que tiene sin retornar que de todos modos 
+no serviria debido a que tiene el "void"
+    */
 
     public static String obtenerNombre() {
         return "Luis";
