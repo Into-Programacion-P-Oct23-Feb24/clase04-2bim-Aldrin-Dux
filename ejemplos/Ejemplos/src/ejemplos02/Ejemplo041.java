@@ -43,7 +43,6 @@ public class Ejemplo041 {
             }
             System.out.println("\n");
         }
-
     }
 
     public static int obtenerMultiplicacion(int a, int b) {
