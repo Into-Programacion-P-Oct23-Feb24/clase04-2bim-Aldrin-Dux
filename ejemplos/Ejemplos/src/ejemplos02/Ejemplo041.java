@@ -25,14 +25,14 @@ public class Ejemplo041 {
         }
         for (int f = 0; f < arreglo1.length; f++) {
             for (int c = 0; c < arreglo1[f].length; c++) {
-                System.out.printf("%d\t", arreglo3[f][c]);
+                System.out.printf("%d\t", arreglo1[f][c]);
             }
             System.out.println("\n");
         }
         System.out.println("\n");
         for (int f = 0; f < arreglo2.length; f++) {
             for (int c = 0; c < arreglo2[f].length; c++) {
-                System.out.printf("%d\t", arreglo3[f][c]);
+                System.out.printf("%d\t", arreglo2[f][c]);
             }
             System.out.println("\n");
         }
